@@ -1,8 +1,16 @@
 .banner {
   height: 100vh;
-}
-
-.banner-image {
+  background-image: url("images/portfolio-banner.jpg");
   height: 800px;
   width: 100%;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  color: $blue;
+  font-family: "Lobster", sans-serif;
+  font-size: 70px;
 }
