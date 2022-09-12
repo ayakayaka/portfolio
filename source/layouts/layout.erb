@@ -16,37 +16,46 @@
     <link rel="stylesheet" type="text/css" id="app-stylesheet" href="stylesheets/main.css">
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
   </head>
   <body>
-    <header class="header header--fixed">
-      <div class="header__inner">
-        <div class="header__logo"><a href="index.html"><img src="assets/img/logo.png" alt="" style="width: 122px;"/></a></div>
-        <div class="navbar-toggle" id="fs-button">
-          <div class="navbar-icon"><span></span></div>
+    <div class="container header">
+      <header class="header header--fixed">
+        <div class="header__inner">
+          <div class="header__logo"><a href="index.html"><img src="assets/img/logo.png" alt="" style="width: 122px;"/></a></div>
+          <div class="navbar-toggle" id="fs-button">
+            <div class="navbar-icon"><span></span></div>
+          </div>
         </div>
-      </div>
-      <!-- fullscreenmenu__module -->
-      <div class="fullscreenmenu__module" trigger="#fs-button">
-        <!-- overlay-menu -->
-        <nav class="overlay-menu">
-          <!--  -->
-          <ul class="wil-menu-list">
-            <li class="current-menu-item"><a href="index.html">Home</a>
-            </li>
-            <li><a href="about.html">About</a>
-            </li>
-            <li><a href="work.html">Work</a>
-            </li>
-            <li><a href="blog.html">Blog</a>
-            </li>
-            <li><a href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <!--  -->
-        </nav><!-- End / overlay-menu -->
-      </div>
-      <!-- End / fullscreenmenu__module -->
-    </header>
+        <!-- fullscreenmenu__module -->
+        <div class="fullscreenmenu__module" trigger="#fs-button">
+          <!-- overlay-menu -->
+          <nav class="overlay-menu">
+            <!--  -->
+            <ul class="wil-menu-list">
+              <li class="current-menu-item"><a href="index.html">Home</a>
+              </li>
+              <li><a href="about.html">About</a>
+              </li>
+              <li><a href="work.html">Work</a>
+              </li>
+              <li><a href="blog.html">Blog</a>
+              </li>
+              <li><a href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!--  -->
+          </nav><!-- End / overlay-menu -->
+        </div>
+        <!-- End / fullscreenmenu__module -->
+      </header>
+    </div>
+    <div class="container banner">
+      <%= partial 'partials/banner' %>
+    </div>
+    <div class="container about">
+      <%= partial 'partials/about'%>
+    </div>
     <%= yield %>
     <script type="text/javascript" src="vendors/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="vendors/imagesloaded/imagesloaded.pkgd.js"></script>
