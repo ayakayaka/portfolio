@@ -50,12 +50,10 @@
         <!-- End / fullscreenmenu__module -->
       </header>
     </div>
-    <div class="container banner">
-      <%= partial 'partials/banner' %>
-    </div>
-    <div class="container about">
-      <%= partial 'partials/about'%>
-    </div>
+    <%= partial 'partials/banner' %>
+    <%= partial 'partials/about'%>
+    <%= partial 'partials/projects' %>
+    <%= partial 'partials/social' %>
     <%= yield %>
     <script type="text/javascript" src="vendors/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="vendors/imagesloaded/imagesloaded.pkgd.js"></script>
