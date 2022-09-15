@@ -8,6 +8,19 @@
   height: 400px;
 }
 
+
+.container-projects {
+  display: flex;
+
+  .project-name {
+  flex-direction: column;
+  margin-left: 20px;
+  }
+  #description {
+
+  }
+}
+
 .project-name {
   display: flex;
   justify-content: start;
