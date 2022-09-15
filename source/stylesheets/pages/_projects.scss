@@ -1,0 +1,23 @@
+.projects-h2 {
+  font-size: 80px;
+  margin-bottom: 100px;
+}
+
+.project-image {
+  width: 600px;
+  height: 400px;
+}
+
+.project-name {
+  display: flex;
+  justify-content: start;
+  .fa-solid {
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: $blue;
+    &:hover {
+      color: $red;
+    }
+  }
+}
