@@ -1,36 +1,32 @@
-.projects-h2 {
-  font-size: 80px;
-  margin-bottom: 100px;
+.card-product {
+  overflow: hidden;
+  height: 400px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
 }
 
-.project-image {
+.card-product img {
   width: 600px;
   height: 400px;
+  object-fit: cover;
 }
 
-
-.container-projects {
-  display: flex;
-
-  .project-name {
-  flex-direction: column;
-  margin-left: 20px;
-  }
-  #description {
-
-  }
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
 }
 
-.project-name {
-  display: flex;
-  justify-content: start;
-  .fa-solid {
-    margin-top: 60px;
-    margin-left: 40px;
-    font-size: 30px;
-    color: $blue;
-    &:hover {
-      color: $red;
-    }
-  }
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
 }
