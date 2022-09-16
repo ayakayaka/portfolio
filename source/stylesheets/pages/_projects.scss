@@ -1,3 +1,7 @@
+.container {
+  max-width: 100%;
+}
+
 .card-product {
   overflow: hidden;
   height: 400px;
@@ -13,18 +17,35 @@
   object-fit: cover;
 }
 
-.card-product h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
+.card-product-infos {
+  padding: 16px;
+  // display: flex;
+  #tokyo {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+  }
 
-.card-product p {
-  font-size: 12px;
-  line-height: 1.4;
-  opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px;
+  #description  {
+    font-size: 15px;
+    width: 300px;
+  }
+
+
+  .fa-solid {
+    top: 10px;
+    font-size: 25px;
+    color: $blue;
+    margin-top: 20px;
+    margin-left: 30px;
+    &:hover {
+      color: $red;
+    }
+  }
+
+  #arrow {
+    margin-left: 40px;
+  }
 }
 
 .card-product .card-product-infos {
