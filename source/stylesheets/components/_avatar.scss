@@ -2,10 +2,14 @@
 //   width: 40px;
 //   border-radius: 50%;
 // }
-// .avatar-large {
-//   width: 56px;
-//   border-radius: 50%;
-// }
+.avatar-large {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  left: 800px;
+  bottom: 100px;
+}
 // .avatar-bordered {
 //   width: 40px;
 //   border-radius: 50%;

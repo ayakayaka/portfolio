@@ -12,13 +12,36 @@ h2 {
   // margin-top: 200px;
 }
 
-.container-about {
-  margin-top: 200px;
+#about {
+  position: relative;
 }
+
+#about-me-card {
+  border: none;
+}
+
+#about-me-description {
+  background-color: $gray;
+  border: none;
+}
+
+#about_me {
+  margin-top: 200px;
+  margin-bottom: 500px;
+  display: flex;
+ img {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+ }
+}
+
 
 .about_me-h2 {
   color: $blue;
-  font-size: 50px;
+  font-size: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 p {
