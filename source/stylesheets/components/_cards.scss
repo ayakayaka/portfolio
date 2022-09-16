@@ -58,7 +58,7 @@
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
-  .cards {
+  .card-product {
     grid-template-columns: 1fr;
   }
   .external-link {
@@ -68,7 +68,7 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .cards {
+  .card-product {
     grid-template-columns: 1fr;
   }
   .external-link {
@@ -78,7 +78,7 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .cards {
+  .card-product {
     grid-template-columns: 1fr 1fr;
   }
   .external-link {
@@ -88,14 +88,14 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .cards {
+  .card-product {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .cards {
+  .card-product {
     grid-template-columns: 1fr 1fr;
   }
 }
